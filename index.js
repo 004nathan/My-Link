@@ -408,8 +408,8 @@ const data = [
         "name": "Github",
          "year": 2023,
          "createdAt":"20-02-2023",
-       "catogery":"github",
-       "title":"translate",
+       "catogery":"app",
+       "title":"github",
         "url":"https://github.com",
         "img":"assets/download (39).png"
       },
