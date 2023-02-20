@@ -398,11 +398,20 @@ const data = [
       {
         "name": "Translate",
          "year": 2023,
-         "createdAt":"19-02-2023",
+         "createdAt":"20-02-2023",
        "catogery":"App",
        "title":"translate",
         "url":"https://www.google.com/search?q=google+translate&oq=google+tra&aqs=chrome.0.0i131i433i512j0i433i512j69i57j0i131i433i512l2j69i60j69i65j69i60.2880j0j7&sourceid=chrome&ie=UTF-8",
         "img":"assets/download (38).png"
+      },
+      {
+        "name": "Github",
+         "year": 2023,
+         "createdAt":"20-02-2023",
+       "catogery":"github",
+       "title":"translate",
+        "url":"https://github.com",
+        "img":"assets/download (39).png"
       },
 
   ]
