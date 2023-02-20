@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #root{
     height: 100vh;
@@ -88,11 +89,17 @@ a{
     width:100vw;
     font-size: 2vh;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:flex-start;
     align-items: center;
     flex-direction: column;
     margin-top: 15vh;
+    letter-spacing: 0.5vh;
  }
  .emojiDiv{
-    font-size:10vh;
+    font-size:8vh;
+  }
+  .pTag{
+    color:#222731;
+  text-align: center;
+  font-size:3vh;
   }

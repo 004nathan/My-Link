@@ -415,11 +415,13 @@ const container = document.getElementsByClassName("content")[0];
     data.forEach(elem=>{
 let parent = document.createElement('div');
 let title = document.createElement('a');
+let pTag = document.createElement('p');
 let img = document.createElement('img');
-container.appendChild(parent).setAttribute('class','parent');
+container.appendChild(title).setAttribute('class','parent');
 parent.appendChild(img).setAttribute('class','img');
-parent.appendChild(title).setAttribute('class','title');
-title.innerHTML = elem.name;
+title.appendChild(parent).setAttribute('class','title');
+parent.appendChild(pTag).setAttribute('class','pTag');
+pTag.innerHTML=elem.name;
 title.href=elem.url;
 title.target='blank';
 img.src=elem.img;
@@ -454,7 +456,9 @@ img.src=elem.img;
     let send = data;
     container.innerHTML=`
     <div class="emoji">
-    <img src='assets/a8121abee959e18cbad25ad4046f76d8.gif'/>
+  <div class="emojiDiv">😕</div>
+    <h1>No apps found</h1>
+    <h2>Go to home and Try again search your favourite apps</h2>
      <button onclick="home()">Home</button>
    </div>`
  }
