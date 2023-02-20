@@ -86,7 +86,7 @@ const data = [
          "createdAt":"19-02-2023",
        "catogery":"App",
        "title":"fontawesome",
-        "url":"",
+        "url":"https://fontawesome.com/",
         "img":"assets/download (10).png"
       },
       {
