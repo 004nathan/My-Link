@@ -413,6 +413,15 @@ const data = [
         "url":"https://github.com",
         "img":"assets/download (39).png"
       },
+      {
+        "name": "Learn",
+         "year": 2023,
+         "createdAt":"21-02-2023",
+       "catogery":"app",
+       "title":"learn",
+        "url":"https://learn.zoho.com/portal/zohoschools/course/zs24-tech-fundamentals-of-rdbms/lesson/assignment-6-more-queries-on-world-database",
+        "img":"assets/download (40).png"
+      },
 
   ]
 // //   document.getElementById('logo').src=data[0].img;
