@@ -131,7 +131,7 @@ const data = [
          "createdAt":"19-02-2023",
        "catogery":"App",
        "title":"codewar",
-        "url":"https://www.codewars.com/kata/592915cc1fad49252f000006",
+        "url":"https://www.codewars.com",
         "img":"assets/download (13).png"
       },
       {
@@ -167,7 +167,7 @@ const data = [
          "createdAt":"19-02-2023",
        "catogery":"App",
        "title":"replit",
-        "url":"https://replit.com/@PARVATHI-NATHAN",
+        "url":"https://replit.com",
         "img":"assets/download (17).png"
       },
       {
@@ -284,7 +284,7 @@ const data = [
          "createdAt":"19-02-2023",
        "catogery":"App",
        "title":"bookfusion",
-        "url":"https://www.bookfusion.com/p/parvathinathan#_=_",
+        "url":"https://www.bookfusion.com",
         "img":"assets/download (3).jpeg"
       },
       {
@@ -439,6 +439,42 @@ const data = [
        "title":"undraw",
         "url":"https://undraw.co/illustrations",
         "img":"assets/download (42).png"
+      },
+      {
+        "name": "Dribble",
+         "year": 2023,
+         "createdAt":"23-02-2023",
+       "catogery":"app",
+       "title":"dribble",
+        "url":"https://dribbble.com",
+        "img":"assets/download (43).png"
+      },
+      {
+        "name": "Behance",
+         "year": 2023,
+         "createdAt":"23-02-2023",
+       "catogery":"app",
+       "title":"behance",
+        "url":"https://www.behance.net/",
+        "img":"assets/download (44).png"
+      },
+      {
+        "name": "Pinterest",
+         "year": 2023,
+         "createdAt":"23-02-2023",
+       "catogery":"app",
+       "title":"pinterest",
+        "url":"https://in.pinterest.com/",
+        "img":"assets/download (45).png"
+      },
+      {
+        "name": "HackerRank",
+         "year": 2023,
+         "createdAt":"23-02-2023",
+       "catogery":"app",
+       "title":"hackerrank",
+        "url":"https://www.hackerrank.com/",
+        "img":"assets/download (6).jpeg"
       },
 
 
