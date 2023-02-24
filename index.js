@@ -540,8 +540,6 @@ img.src=elem.img;
     <div class="emoji">
   <img src="assets/no-result-found.svg"/>
    <h1 class="noApp">No App found !</h1>
-    <h2 class="para">Are we missing any important apps you use? Let us know and we’ll get to them right away!
-    </h2>
      <button onclick="home()">Home</button>
    </div>`
  }
