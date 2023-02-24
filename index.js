@@ -538,9 +538,10 @@ img.src=elem.img;
     let send = data;
     container.innerHTML=`
     <div class="emoji">
-  <div class="emojiDiv">😕</div>
-    <h1>No apps found</h1>
-    <h2>Go to home and Try again search your favourite apps</h2>
+  <img src="assets/no-result-found.svg"/>
+   <h1 class="noApp">No App found !</h1>
+    <h2 class="para">Are we missing any important apps you use? Let us know and we’ll get to them right away!
+    </h2>
      <button onclick="home()">Home</button>
    </div>`
  }
