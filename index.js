@@ -480,8 +480,8 @@ const data = [
         "name": "Spotify",
          "year": 2023,
          "createdAt":"24-02-2023",
-       "catogery":"spotify",
-       "title":"hackerrank",
+       "catogery":"app",
+       "title":"spotify",
         "url":"https://open.spotify.com",
         "img":"assets/download (46).png"
       },
