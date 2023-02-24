@@ -538,7 +538,7 @@ img.src=elem.img;
     let send = data;
     container.innerHTML=`
     <div class="emoji">
-  <img src="assets/no-result-found.svg"/>
+  <img class="emptyImage" src="assets/no-result-found.svg"/>
    <h1 class="noApp">No App found !</h1>
      <button onclick="home()">Home</button>
    </div>`
