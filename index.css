@@ -106,3 +106,6 @@ a{
   text-align: center;
   font-size:3vh;
   }
+  .emptyImage{
+    height: 20vh;
+  }
