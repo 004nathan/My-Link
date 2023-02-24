@@ -476,6 +476,15 @@ const data = [
         "url":"https://www.hackerrank.com/",
         "img":"assets/download (6).jpeg"
       },
+      {
+        "name": "Spotify",
+         "year": 2023,
+         "createdAt":"24-02-2023",
+       "catogery":"spotify",
+       "title":"hackerrank",
+        "url":"https://open.spotify.com",
+        "img":"assets/download (46).png"
+      },
 
 
   ]
