@@ -494,6 +494,15 @@ const data = [
         "url":"https://visualgo.net/en/sorting?slide=1-1",
         "img":"assets/download (47).png"
       },
+      {
+        "name": "Typing",
+         "year": 2023,
+         "createdAt":"05-03-2023",
+       "catogery":"app",
+       "title":"typing",
+        "url":"https://www.typingclub.com/sportal/program-3/119.play",
+        "img":"assets/download (7).jpeg"
+      },
 
 
   ]
