@@ -59,20 +59,22 @@ input:focus {
 .search button:hover{
     background-color: #60ABFF;
 }
-.content{
+.contentParent{
     height:85vh;
     width:100vw;
-    display: grid;
-    grid-template-rows: repeat(10,1fr);
-    grid-template-columns: repeat(4,1fr);
     overflow: scroll;
     overflow-x:hidden;
+}
+.content{
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(6,1fr);
 }
 a{
     text-decoration: none;
 }
 .parent{
-    height:400px;
+    height:240px;
     display: flex;
     justify-content: space-evenly;
     gap: 12px;
@@ -104,7 +106,7 @@ a{
   .pTag{
     color:#222731;
   text-align: center;
-  font-size:3vh;
+  font-size:2.1vh;
   }
   .emptyImage{
     height: 20vh;
