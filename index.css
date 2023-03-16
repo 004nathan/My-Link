@@ -62,9 +62,11 @@ input:focus {
 .content{
     height:85vh;
     width:100vw;
-    display: grid;
-    grid-template-rows: repeat(10,1fr);
-    grid-template-columns: repeat(4,1fr);
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+align-items: center;
     overflow: scroll;
     overflow-x:hidden;
 }
