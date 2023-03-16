@@ -6,7 +6,7 @@ body{
 #root{
     height: 100vh;
     width:100vw;
-    background-color:#F2F2F2;
+    background-color:#FFFFFF;
 }
 #container{
     height: 100vh;
@@ -81,8 +81,8 @@ a{
     font-size: xx-large;
 }
 .parent img{
-    height:200px;
-    width: 200px;
+    height:100px;
+    width: 100px;
 }
 .emoji{
     height:70vh;
