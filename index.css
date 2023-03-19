@@ -73,15 +73,21 @@ input:focus {
 a{
     text-decoration: none;
 }
+.maxparent:hover{
+    transform: scale(1);
+   transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 .maxparent{
-    height: 300px;
-    width: 300px;
+    height: 270px;
+    width: 270px;
     display: flex;
     justify-content: space-evenly;
     gap: 12px;
     align-items:center;
     flex-direction: column;
     font-size: xx-large;
+    margin: auto;
 }
 .title img{
     height:100px;
