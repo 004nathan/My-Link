@@ -528,8 +528,8 @@ const data = [
 //     console.log(elem.title);
 //  })
 
-localStorage.setItem('gridRowLength',9);
-var dataLength = data.length;
+// localStorage.setItem('gridRowLength',9);
+// var dataLength = data.length;
 const container = document.getElementsByClassName("content")[0];
  const createApp = (data)=>{
     data.forEach(elem=>{
@@ -550,14 +550,14 @@ img.src=elem.img;
     })
  }
  window.addEventListener('load',()=>{
-  if(data.length % 6 == 0){
-    let gridRowLength =  localStorage?.getItem('gridRowLength');
-    container.style.gridTemplateRows=`repeat(${gridRowLength++},1fr)`;
-    localStorage.setItem("gridRowLength",gridRowLength++)
-  }
-  else{
-    console.log('grid row correct setup');
-  }
+  // if(data.length % 6 == 0){
+  //   let gridRowLength =  localStorage?.getItem('gridRowLength');
+  //   container.style.gridTemplateRows=`repeat(${gridRowLength++},1fr)`;
+  //   localStorage.setItem("gridRowLength",gridRowLength++)
+  // }
+  // else{
+  //   console.log('grid row correct setup');
+  // }
     createApp(data);
  })
  const getApp = ()=>{
