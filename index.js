@@ -485,48 +485,16 @@ const data = [
         "url":"https://open.spotify.com",
         "img":"assets/download (46).png"
       },
-      {
-        "name": "Visual Go",
-         "year": 2023,
-         "createdAt":"03-03-2023",
-       "catogery":"app",
-       "title":"visualgo",
-        "url":"https://visualgo.net/en/sorting?slide=1-1",
-        "img":"assets/download (47).png"
-      },
-      {
-        "name": "Typing",
-         "year": 2023,
-         "createdAt":"05-03-2023",
-       "catogery":"app",
-       "title":"typing",
-        "url":"https://www.typingclub.com/sportal/program-3/119.play",
-        "img":"assets/download (7).jpeg"
-      },
-      {
-        "name": "Notebook",
-         "year": 2023,
-         "createdAt":"01-04-2023",
-       "catogery":"app",
-       "title":"notebook",
-        "url":"https://notebook.zoho.com/",
-        "img":"assets/notebook.png"
-      },
-      {
-        "name": "Task",
-         "year": 2023,
-         "createdAt":"01-04-2023",
-       "catogery":"app",
-       "title":"task",
-        "url":"https://tasks.zoho.com/",
-        "img":"assets/task.png"
-      },
+     
 
   ]
 // //   document.getElementById('logo').src=data[0].img;
 //  data.forEach(elem =>{
 //     console.log(elem.title);
 //  })
+
+localStorage.setItem('gridRowLength',9);
+var dataLength = data.length;
 const container = document.getElementsByClassName("content")[0];
  const createApp = (data)=>{
     data.forEach(elem=>{
@@ -547,6 +515,14 @@ img.src=elem.img;
     })
  }
  window.addEventListener('load',()=>{
+  if(data.length % 6 == 0){
+    let gridRowLength =  localStorage?.getItem('gridRowLength');
+    container.style.gridTemplateRows=`repeat(${gridRowLength++},1fr)`;
+    localStorage.setItem("gridRowLength",gridRowLength++)
+  }
+  else{
+    console.log('grid row correct setup');
+  }
     createApp(data);
  })
  const getApp = ()=>{
