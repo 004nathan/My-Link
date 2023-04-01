@@ -135,11 +135,15 @@ a{
         margin-top: 2vh;
     }
     .maxparent{
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
 
     }
     .content{
         grid-template-columns: repeat(2,1fr);
+    }
+    .title img{
+        height: 50px;
+        width: 50px;
     }
   }
