@@ -503,6 +503,15 @@ const data = [
         "url":"https://www.typingclub.com/sportal/program-3/119.play",
         "img":"assets/download (7).jpeg"
       },
+      {
+        "name": "Notebook",
+         "year": 2023,
+         "createdAt":"01-04-2023",
+       "catogery":"app",
+       "title":"notebook",
+        "url":"https://notebook.zoho.com/",
+        "img":"assets/notebook.png"
+      },
 
 
   ]
