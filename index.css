@@ -126,7 +126,7 @@ a{
     .inputBoxSearch{
         width: 60%;
     }
-    .search button{
+    .search button,.emoji button{
 
         width: 19%;
         font-size: 2vh;
