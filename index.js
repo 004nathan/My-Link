@@ -512,7 +512,15 @@ const data = [
         "url":"https://notebook.zoho.com/",
         "img":"assets/notebook.png"
       },
-
+      {
+        "name": "Task",
+         "year": 2023,
+         "createdAt":"01-04-2023",
+       "catogery":"app",
+       "title":"task",
+        "url":"https://tasks.zoho.com/",
+        "img":"assets/task.png"
+      },
 
   ]
 // //   document.getElementById('logo').src=data[0].img;
