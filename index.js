@@ -594,3 +594,5 @@ img.src=elem.img;
  const home = ()=>{
     window.location.reload();
  }
+
+ 

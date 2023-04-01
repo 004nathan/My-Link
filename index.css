@@ -118,3 +118,28 @@ a{
   .emptyImage{
     height: 20vh;
   }
+  @media only screen and (max-width: 700px) {
+
+    .search{
+        width: 100vw;
+    }
+    .inputBoxSearch{
+        width: 60%;
+    }
+    .search button{
+
+        width: 19%;
+        font-size: 2vh;
+    }
+    .contentParent{
+        margin-top: 2vh;
+    }
+    .maxparent{
+        height: 200px;
+        width: 200px;
+
+    }
+    .content{
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
